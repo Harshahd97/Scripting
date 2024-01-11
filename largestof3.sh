@@ -1,10 +1,10 @@
 #!/bin/bash
-echo "enter the value of a:"
-read a
-echo "enter the value of b:"
-read b
-echo "enter the value of c:"
-read c
+#echo "enter the value of a:"
+#read a
+#echo "enter the value of b:"
+#read b
+#echo "enter the value of c:"
+#read c
 if [ $a -gt $b ] && [ $a -gt $c ]
 then
 	echo "Value of a is larger than b and c"
