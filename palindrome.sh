@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "Enter the string"
-read string
+#echo "Enter the string"
+#read string
 reverse=`echo "$string" | rev `
 echo "$reverse"
 if [ $string == $reverse ]
