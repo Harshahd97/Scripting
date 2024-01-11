@@ -9,4 +9,3 @@ then
 else
 	echo "The $string is not a palindrome"
 fi
-
